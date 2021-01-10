@@ -1,6 +1,7 @@
 <template>
-  <div class="home">
-    <h1>Get Swole</h1>
+  <div id="home">
+    <h1 class="title">Get Swole</h1>
+    <p>adding this to test git</p>
     
   </div>
 </template>
@@ -12,3 +13,10 @@ export default {
   
 }
 </script>
+
+<style scoped>
+#home {
+  background: red;
+}
+
+</style>
