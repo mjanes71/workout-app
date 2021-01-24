@@ -8,7 +8,7 @@ const http = axios.create({
 export default {
 
   getAllExercises() {
-    return http.get('/?language=2').then(response => {
+    return http.get('/?language=2&limit=300').then(response => {
       store.commit('SET_EXERCISES', response.data);
   });
 
