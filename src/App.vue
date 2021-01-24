@@ -8,6 +8,20 @@
   </div>
 </template>
 
+<script>
+
+import ExerciseService from '@/services/exerciseservice.js';
+export default {
+  created() {
+  ExerciseService.getAllExercises();
+
+}
+
+}
+
+
+</script>
+
 <style>
 * {
   margin: 0;
